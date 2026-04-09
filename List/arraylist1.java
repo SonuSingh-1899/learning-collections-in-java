@@ -19,7 +19,8 @@ public class arraylist1 {
         System.out.println(list);
 
         // 2
-        ArrayList<String> list2 = new ArrayList<>(List.of("sonu","vishal","rahul"));
+        List<String> list4 = List.of("sonbun","vikas", "rahul");
+        ArrayList<String> list2 = new ArrayList<>(list4);
         System.out.println(list2);
 
 
