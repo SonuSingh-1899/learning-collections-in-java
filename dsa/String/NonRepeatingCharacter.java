@@ -15,6 +15,13 @@ public class NonRepeatingCharacter {
                 map.put(ch, 1);
             }
         }
-        System.out.println(map);
+        // find first unique
+        for(int i=0;i<str.length(); i++){
+            char ch = str.charAt(i);
+            if (map.get(ch) == 1) {
+                System.out.println("first charactor is  : "+ch);
+                break;
+            }
+        }
     }
 }
