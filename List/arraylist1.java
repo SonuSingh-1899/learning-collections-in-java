@@ -15,7 +15,6 @@ public class arraylist1 {
         list.add(2);
         list.add(2);
         list.add(2);
-        list.add(2);
         System.out.println(list);
 
         // 2
