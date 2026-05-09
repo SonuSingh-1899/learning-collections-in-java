@@ -24,5 +24,6 @@ public class stacks {
         nums.addLast(5);
         System.out.println(nums);
         System.out.println(nums.indexOf(4));
+        System.out.println(stack.pop());
     }
 }
