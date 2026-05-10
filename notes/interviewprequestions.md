@@ -54,3 +54,8 @@ Answer:
 **Q. What happens when stack becomes empty and pop() is called?
 Answer:
     Java throws: EmptyStackException
+
+    
+
+Note : INTERNAL WORLKING OF HASHMAP = >
+Java HashMap `HashMap` is a data structure in Java that stores data in the form of key-value pairs and internally uses a hashing mechanism for fast data access. When we insert data using `put(key, value)`, the `HashMap` first generates a hash code for the key using the `hashCode()` method. This hash code is then processed to calculate a bucket index where the data will be stored. Internally, `HashMap` maintains an array of buckets, and each bucket can store one or more nodes. If multiple keys generate the same bucket index, a collision occurs. To handle collisions, Java uses a Linked List, and from Java 8 onward, if the number of entries in a bucket becomes large, the Linked List is converted into a Red-Black Tree to improve performance. When `get(key)` is called, the same hashing process is used to locate the bucket, and then the `equals()` method is used to find the exact key and return its value. In average cases, `HashMap` provides O(1) time complexity for insertion and retrieval operations, which makes it very fast and efficient. However, `HashMap` is not synchronized, so it is not thread-safe in multithreaded environments.
