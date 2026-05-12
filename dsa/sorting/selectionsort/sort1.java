@@ -8,7 +8,6 @@ public class sort1 {
         }
         System.out.println();
     }
-
     public static void main(String[] args) {
         int arr[] = {3, 8, 7, 6, 2, 9, 0, 5, 8};
 
