@@ -14,10 +14,20 @@ public class LinkedHashmaps {
         linkedhashmap.put("shubham", 28);
         linkedhashmap.put("anita", 38);
         linkedhashmap.get("monu");
+        linkedhashmap.putIfAbsent("vishal", 29);
         for(Map.Entry<String, Integer> entery : linkedhashmap.entrySet()){
             System.out.println(entery.getKey() + " : " + entery.getValue());
         }
         System.out.println();
+
+
+
+
+
+
+
+
+
         // HashMap<String, Integer> hashmap = new HashMap<>();
         // hashmap.put("Sonu", 19);
         // hashmap.put("sakshi", 20);
@@ -28,10 +38,6 @@ public class LinkedHashmaps {
         //     System.out.println(entery.getKey() + " : " + entery.getValue());
         // }
         
-
-
-
-
 
 
 
