@@ -9,8 +9,6 @@ public class AnagramCheck {
         boolean isAnagram = true;
         int count = 0;
         HashMap<Character, Integer> map = new HashMap<>();
-
-
         // put in hashmap 
         for(int i=0;i<s1.length();i++){
             char ch = s1.charAt(i);
